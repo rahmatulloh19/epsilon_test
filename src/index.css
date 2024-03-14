@@ -58,7 +58,6 @@ body {
 }
 
 .hero {
-  /* height: 776px; */
   background-image: url("./assets/images/hero.png");
   background-repeat: no-repeat;
   background-position: center top;
@@ -78,4 +77,15 @@ input[name="hero_types"]:checked + span::after {
 }
 input[name="hero_types"]:checked + span {
   color: #fcfcfd;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }

@@ -56,6 +56,10 @@ export const Hero = () => {
               </label>
             </li>
           </ul>
+          <h2 className="visually-hidden">
+            As I closed my eyes, I felt the gentle embrace of sleep enveloping
+            me.
+          </h2>
           <ul className="flex">
             <li className="flex gap-3 pe-16 p-5">
               <div className="w-8 h-8 flex items-center justify-content-center">
@@ -76,7 +80,7 @@ export const Hero = () => {
               </div>
 
               <div>
-                <h2 className="font-semibold text-2xl">Location</h2>
+                <h3 className="font-semibold text-2xl">Location</h3>
                 <p className="text-base text-[#777E90]">Where are you going?</p>
               </div>
             </li>
@@ -111,7 +115,7 @@ export const Hero = () => {
               </div>
 
               <div className="w-[136px]">
-                <h2 className="font-semibold text-2xl">Check in</h2>
+                <h3 className="font-semibold text-2xl">Check in</h3>
                 <p className="text-base text-[#777E90]">Add date</p>
               </div>
             </li>
@@ -146,7 +150,7 @@ export const Hero = () => {
               </div>
 
               <div className="w-[136px]">
-                <h2 className="font-semibold text-2xl">Check out</h2>
+                <h3 className="font-semibold text-2xl">Check out</h3>
                 <p className="text-base text-[#777E90]">Add date</p>
               </div>
             </li>
@@ -175,7 +179,7 @@ export const Hero = () => {
               </div>
 
               <div className="w-[136px]">
-                <h2 className="font-semibold text-2xl">Travelers</h2>
+                <h3 className="font-semibold text-2xl">Travelers</h3>
                 <p className="text-base text-[#777E90]">Add guests</p>
               </div>
               <button className="inline-flex items-center justify-content-center w-16 h-16 bg-[#3B71FE] rounded-full">
