@@ -56,3 +56,26 @@ body {
   background-color: #141416;
   font-family: "Poppins", "Arial", sans-serif;
 }
+
+.hero {
+  /* height: 776px; */
+  background-image: url("./assets/images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.hero__list {
+  background: linear-gradient(
+    92.98deg,
+    #23262f 3.54%,
+    rgba(35, 38, 47, 0.7) 93.38%
+  );
+  box-shadow: 0px 40px 64px -32px #0f0f0f1a;
+}
+
+input[name="hero_types"]:checked + span::after {
+  background-color: #fcfcfd;
+}
+input[name="hero_types"]:checked + span {
+  color: #fcfcfd;
+}
