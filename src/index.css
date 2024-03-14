@@ -89,3 +89,9 @@ input[name="hero_types"]:checked + span {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+.work__list {
+  background-image: url("../src/assets/images/line.svg");
+  background-repeat: no-repeat;
+  background-position: center 62.5px;
+}
